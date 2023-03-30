@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Footer  from './components/footer/Footer';
+import photos from './photos/amazon.png';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+    <div>
+    <Footer/>
+    </div>
     </div>
   );
 }
