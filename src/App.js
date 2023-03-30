@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Footer  from './components/footer/Footer';
 import photos from './photos/amazon.png';
+import Body from './components/body/Body'
+
 function App() {
   return (
     <div className="App">
